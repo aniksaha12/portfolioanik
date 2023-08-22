@@ -7,9 +7,9 @@ import Card from './Card';
 
 export default function Features() {
   return (
-    <section id='features' className='w-full h-[300px] py-20 border-b-[1px] border-b-black'>
+    <section id='features' className='w-full border-b-[1px] border-b-black'>
        <Title title="Features" des="What I Do"/>
-       <div className='grid grid-cols-3 gap-20'>
+       <div className='grid grid-cols-3 gap-10'>
        <Card title = "Web Development" 
         des ="hersb fiwerhofieuofuwesayf ciqweyrifuqwe 98weyrdf87weayrfoqweub9udfwer 9wehdruweaydgfouweaby fiweahfid" icon={<FaBars/>}/>
         <Card title = "Web Development" 
