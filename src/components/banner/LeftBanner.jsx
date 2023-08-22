@@ -29,7 +29,7 @@ export default function LeftBanner() {
             />    
           </h2>
           <p className="text-base font-bodyFont leading-6 tracking-wide">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            As a dedicated web developer, I craft seamless digital experiences through clean code and intuitive design.
           </p>
         </div>
         <div className="flex justify-between">
@@ -39,13 +39,19 @@ export default function LeftBanner() {
             </h2>
             <div className="flex gap-4">
                 <span className="bannerIcon">
-                    <FaFacebookF/>
+                    <a href='https://react-icons.github.io/react-icons/icons?name=fa' _blank>
+                    < FaFacebookF />
+                    </a>
                 </span>
                 <span className="bannerIcon">
+                <a href='https://react-icons.github.io/react-icons/icons?name=fa' _blank>
                     <FaTwitter/>
+                    </a>
                 </span>
                 <span className="bannerIcon">
+                <a href='https://react-icons.github.io/react-icons/icons?name=fa' _blank>
                     <FaLinkedinIn/>
+                    </a>
                 </span>
             </div>
             </div>
